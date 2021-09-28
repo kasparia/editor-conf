@@ -1,4 +1,6 @@
 # editor-conf
+Configs and stuff
 
--VS Code config<br>
--iTerm2 config
+* VS Code config
+* iTerm2 config
+* zsh
