@@ -1,4 +1,4 @@
 # editor-conf
 
--VS Code config
+-VS Code config<br>
 -iTerm2 config
