@@ -1,0 +1,16 @@
+{
+    "workbench.colorTheme": "GitHub Dark",
+    "calva.keybindingsEnabled": false,
+    "[clojure]": {
+        "editor.wordSeparators": "\t ()\"':,;~@#$%^&{}[]`",
+        "editor.autoClosingBrackets": "always",
+        "editor.autoClosingQuotes": "always",
+        "editor.formatOnType": false,
+        "editor.autoIndent": "full",
+        "editor.formatOnPaste": true,
+        "files.trimTrailingWhitespace": false,
+        "editor.matchBrackets": "never",
+        "editor.renderIndentGuides": false,
+        "editor.parameterHints.enabled": false
+    }
+}
