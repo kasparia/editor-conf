@@ -38,9 +38,14 @@ COLOR_GIT='%F{39}'
 setopt PROMPT_SUBST
 export PROMPT='${COLOR_USR}%n@%M ${COLOR_DIR}%d ${COLOR_GIT}$(parse_git_branch)${COLOR_DEF}% :: '
 
+## Remove case-sensitivy
+autoload -Uz compinit && compinit
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 
-
-
+## Add arrow tab + arrow key selection
+autoload -Uz compinit
+compinit
+zstyle ':completion:*' menu select
 
 
 
