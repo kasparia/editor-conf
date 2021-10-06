@@ -3,6 +3,7 @@ alias ls='ls -G'
 alias ll='ls -lG'
 
 alias gcl='git clone'
+alias gp='git pull'
 alias gpr='git pull --rebase'
 
 alias g='git'
